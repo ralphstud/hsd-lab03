@@ -7,4 +7,6 @@ module my_mul #(
     output [2*BITWIDTH-1:0] dout
 );
 /* IMPLEMENT HERE! */
+    assign dout = ain * bin;
+    
 endmodule
