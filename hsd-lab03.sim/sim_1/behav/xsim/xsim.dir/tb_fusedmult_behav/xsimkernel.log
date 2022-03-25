@@ -1,7 +1,7 @@
-Running: xsim.dir/tb_fusedmult_behav/xsimk.exe -simmode gui -wdb tb_fusedmult_behav.wdb -simrunnum 0 -socket 51149
+Running: xsim.dir/tb_fusedmult_behav/xsimk.exe -simmode gui -wdb tb_fusedmult_behav.wdb -simrunnum 0 -socket 56347
 Design successfully loaded
-Design Loading Memory Usage: 6156 KB (Peak: 6156 KB)
-Design Loading CPU Usage: 31 ms
+Design Loading Memory Usage: 6364 KB (Peak: 6364 KB)
+Design Loading CPU Usage: 77 ms
 Simulation completed
-Simulation Memory Usage: 6788 KB (Peak: 6788 KB)
-Simulation CPU Usage: 31 ms
+Simulation Memory Usage: 6996 KB (Peak: 6996 KB)
+Simulation CPU Usage: 108 ms
