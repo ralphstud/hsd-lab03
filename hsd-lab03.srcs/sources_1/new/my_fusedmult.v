@@ -6,16 +6,15 @@ module my_fusedmult #(
     input [BITWIDTH-1:0] bin,
     input en,
     input clk,
-    output [2*BITWIDTH-1:0] dout,
-    
-    reg [2*BITWIDTH-1:0] out
+    output [2*BITWIDTH-1:0] dout
     );
 /* IMPLEMENT HERE! */
 
-always @(posedge clk) begin
-    out = 0;
-    if (en) out = ain * bin;    
-end
+    reg [2*BITWIDTH-1:0] out;
 
-assign dout = out;
+    always @(posedge clk) begin     
+        if (en) out = out + ain * bin; else out=0;     
+    end
+
+    assign dout = out;
 endmodule

@@ -9,7 +9,6 @@ module my_add #(
 );
 /* IMPLEMENT HERE! */
 
-assign dout = ain + bin;
-assign overflow = ain[BITWIDTH-1]+bin[BITWIDTH-1];
+    assign {overflow, dout} = ain + bin;
 
 endmodule
