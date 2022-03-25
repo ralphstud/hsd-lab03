@@ -8,4 +8,8 @@ module my_add #(
     output overflow
 );
 /* IMPLEMENT HERE! */
+
+assign dout = ain + bin;
+assign overflow = ain[BITWIDTH-1]+bin[BITWIDTH-1];
+
 endmodule
